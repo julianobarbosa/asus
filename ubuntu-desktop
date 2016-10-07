@@ -2,6 +2,8 @@
 
 #Python3
 PACKAGES="
+ntfs-3g
+gksu
 exuberant-ctags
 ncurses-term
 python-jinja2 
