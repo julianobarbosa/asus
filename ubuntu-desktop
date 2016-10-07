@@ -56,4 +56,40 @@ libxslt1-dev
 
 sudo apt-get install $PACKAGES
 
-sudo systemctl enable ssh
+sudo systemctl disable ssh
+
+# Install Terminator (shell)
+```console
+sudo add-apt-repository ppa:gnome-terminator
+sudo apt-get update
+sudo apt-get install terminator
+```
+# Install guake Terminal
+```console
+sudo apt-get install guake
+```
+# Save original .dotfiles
+```console
+cd
+mkdir -p ~/Downloads/MyBackups
+mv .* ~/Downloads/MyBackups
+```
+# My dotfiles
+```console
+cd ~/Public
+git clone https://github.com/julianobarbosa/dotfiles.git
+```
+# Link my dotfiles
+```console
+ln -s ~/Public/dotfiles/.zshrc ~
+ln -s ~/Public/dotfiles/.weechat ~
+ln -s ~/Public/dotfiles/.vimrc ~
+ln -s ~/Public/dotfiles/.vimrc.local ~
+ln -s ~/Public/dotfiles/.tmuxinator ~
+ln -s ~/Public/dotfiles/.tmux ~
+ln -s ~/Public/dotfiles/.tmux.conf ~
+ln -s ~/Public/dotfiles/.screenrc ~
+ln -s ~/Public/dotfiles/.my.cnf ~
+ln -s ~/Public/dotfiles/.git ~
+ln -s ~/Public/dotfiles/.gitconfig ~
+```
