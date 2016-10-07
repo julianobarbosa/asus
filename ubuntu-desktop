@@ -141,6 +141,15 @@ sudo mv Telegram /opt
 ## Install Whatsapp
 
 
+# Google Drive
+
+### Add Repository
+```console
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install grive
+```
+
 # Install Keepass
 
 ### Add Repository
