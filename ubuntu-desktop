@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+linphone
 vlc
 powerline
 ntfs-3g
