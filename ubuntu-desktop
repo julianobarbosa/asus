@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+powerline
 ntfs-3g
 gksu
 exuberant-ctags
