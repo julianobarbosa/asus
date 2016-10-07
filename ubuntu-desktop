@@ -158,4 +158,16 @@ sudo apt-add-repository ppa:jtaylor/keepass
 sudo apt-get update
 sudo apt-get install keepass2
 ```
+### Using Google Drive
+```console
+mkdir -p ~/grive
+cd ~/grive
+grive -a
+```
+
+### For more options 
+```console
+grive -h
+```
+
 
