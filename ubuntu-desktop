@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+vlc
 powerline
 ntfs-3g
 gksu
@@ -123,3 +124,18 @@ git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solar
 cd ~/.solarized
 ./install.sh
 ```
+
+# Install Telegram
+
+### Download Program
+https://desktop.telegram.org/
+
+### uncompress
+```console
+xz -d tsetup*xz
+tar xvf tsetup*
+sudo mv Telegram /opt
+```
+
+
+## Install Whatsapp
