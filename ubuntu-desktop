@@ -106,5 +106,19 @@ wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.ot
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
 mkdir -p ~/.config
 mv PowerlineSymbols.otf ~/.fonts/
-mkdir -p .config/fontconfig/conf.d #if directory doesn't exists
+mkdir -p .config/fontconfig/conf.d 
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+```
+
+### Clean fonts cache
+```console
+fc-cache -vf ~/.fonts/
+```
+
+#### Change theme colors to solarize
+```console
+mkdir -p ~/.solarized
+git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.solarized
+cd ~/.solarized
+./install.sh
 ```
