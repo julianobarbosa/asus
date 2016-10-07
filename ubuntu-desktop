@@ -52,6 +52,6 @@ libxml2-dev
 libxslt1-dev
 "
 
-apt-get install $PACKAGES
+sudo apt-get install $PACKAGES
 
 sudo systemctl enable ssh
