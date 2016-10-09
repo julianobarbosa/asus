@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+audacity
 openvpn
 dos2unix
 network-manager-openvpn-gnome
