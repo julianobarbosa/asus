@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+openvpn
 linphone
 vlc
 powerline
