@@ -3,6 +3,7 @@
 #Python3
 PACKAGES="
 openvpn
+dos2unix
 network-manager-openvpn-gnome
 linphone
 vlc
