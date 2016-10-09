@@ -3,6 +3,7 @@
 #Python3
 PACKAGES="
 openvpn
+network-manager-openvpn-gnome
 linphone
 vlc
 powerline
