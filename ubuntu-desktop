@@ -165,6 +165,16 @@ sudo apt-add-repository ppa:jtaylor/keepass
 sudo apt-get update
 sudo apt-get install keepass2
 ```
+
+# Install KeePassHttp
+Download: https://raw.github.com/pfn/keepasshttp/master/KeePassHttp.plgx
+
+## Install mono
+```console
+sudo apt-get install libmono-system-xml-linq4.0-cil libmono-system-data-datasetextensions4.0-cil libmono-system-runtime-serialization4.0-cil mono-mcs
+```
+
+
 ### Using Google Drive
 ```console
 mkdir -p ~/grive
