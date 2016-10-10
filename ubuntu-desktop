@@ -2,6 +2,8 @@
 
 #Python3
 PACKAGES="
+default-jre
+default-jdk
 mysql-workbench
 mono-complete
 cups-pdf
