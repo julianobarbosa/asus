@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+brasero
 audacity
 openvpn
 dos2unix
