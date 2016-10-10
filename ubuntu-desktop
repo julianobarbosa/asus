@@ -200,3 +200,6 @@ sudo apt-get update
 sudo apt-get install spotify-client
 ```
 URL Reference: https://www.spotify.com/br/download/linux/
+
+# Install Squirrel-SQL
+Download: https://sourceforge.net/projects/squirrel-sql/files/1-stable/3.7.1/squirrel-sql-3.7.1-standard.jar/download
