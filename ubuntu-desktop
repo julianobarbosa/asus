@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+cups-pdf
 brasero
 audacity
 openvpn
