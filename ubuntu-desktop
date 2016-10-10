@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+mysql-workbench
 mono-complete
 cups-pdf
 brasero
