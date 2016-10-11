@@ -2,6 +2,9 @@
 
 #Python3
 PACKAGES="
+kdiff3-qt
+nautilus-compare
+diff-ext
 subversion
 default-jre
 default-jdk
