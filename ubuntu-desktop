@@ -2,6 +2,7 @@
 
 #Python3
 PACKAGES="
+gnome-tweak-tool
 kdiff3-qt
 nautilus-compare
 diff-ext
